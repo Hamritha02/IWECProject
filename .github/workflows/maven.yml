@@ -26,7 +26,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: unzip feature
-      run: unzip -d IWECProject/features/ features.zip
+      run: unzip -d IWECProject/features/features.zip
     - name: Build with Maven
       run: mvn clean package -U
     
